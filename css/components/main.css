@@ -1,0 +1,30 @@
+.menu_links{
+   padding: 20px;
+   list-style: none;
+   
+}
+
+.menu_links-link a {
+   
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:var(--text-primary);
+    border: 1px solid #FF8C00;
+    border-radius: 20px;
+    padding:8px 10px;
+    box-shadow: 8px  10px 5px #C0C0C0;
+
+}
+li  {
+    padding: 15px;
+
+}
+
+.menu_links-link a:hover{
+    background-color: #FF8C00;
+}
+
+
+ 
