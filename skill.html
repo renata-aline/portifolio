@@ -14,50 +14,53 @@
 </head>
 
 <body>
-    <header>
-        <header class="perfil">
-            <img class="perfil-imagem" src="assets/foto-renata.jpg" alt="Foto Renata">
-
+    <div class="wrapper">
+        <header class="profile">
+            <img class="avatar" src="assets/foto-renata.jpg" alt="Foto Renata">
+            <div>
+                <h1 class="profile-title">Renata Aline De Oliveira</h1>
+                <spam class="profile-subtitle">Desenvolvedora Front-End</spam>
+            </div>
         </header>
-        <section class="apresentacao">
-                <h2 class="apresentacao_titulo">HABILIDADES</h2>
-                <p class="apresentacao_conteudo">
+        <main>
+            <section class="main-content">
+                <h2 class="title">HABILIDADES</h2>
+                <p class="presentation_content">
                     Tenho conhecimento básico em HTML,CSS,JavaScript,git,figma.
                     Excel básico,inglês básico.
                     Tenho muita vontade de aprender e boa disposição pra fazer acontecer.
 
-            </p>
+                </p>
 
-        </section>
-        <section>
-            <ul class="menu_links">
-                <li class="menu_links-link"><a href="index.html">home</a></li>
-                <li class="menu_links-link"><a href="about.html">Sobre mim</a></li>
-                <li class="menu_links-link"><a href="education.html">Formação</a></li>
-                
-            </ul>
-        </section>
+            </section>
+            <nav class="menu">
+                <ul class="menu_links">
+                    <li class="menu_links-link"><a href="/">Home</a></li>
+                    <li class="menu_links-link"><a href="education.html">Formação</a></li>
+                    <li class="menu_links-link active"><a href="skill.html">Habilidades</a></li>
+                </ul>
+            </nav>
 
-        <footer class="rodape">
-            <p>Acesse minhas redes:</p>
-            <div class="rodape_links">
-                <a href="https://github.com/renata-aline">
-                    <img src="assets/logogit.png" alt="logo github" target="blank" class="rodape_links-icone">
-                </a>
-                <a href="https://instagram.com/renataaolyveira">
-                    <img src="assets/logoinsta.png" alt="logo instagram" target="blank"
-                        class="rodape_links-icone">
-                </a>
-                <a href="https://www.linkedin.com/in/renata-aline-oliveira-3a1766270/">
-                    <img src="assets/logolinkedin.png" alt="Logo linkedin" target="blank"
-                        class="rodape_links-icone">
-                </a>
-                <a href="https://api.whatsapp.com/send?phone=5511986100092">
-                    <img src="assets/logowhats.png" alt="logo whatsapp" target="blank" class="rodape_links-icone">
-                </a>
-            </div>
+        </main>
+    </div>
+    <footer class="footer">
+        <p class="footer_title">Acesse minhas redes:</p>
+        <div class="footer_links">
+            <a href="https://github.com/renata-aline" target="_blank">
+                <img src="assets/logogit.png" alt="logo github" class="footer_links-icone">
+            </a>
+            <a href="https://instagram.com/renataaolyveira" target="_blank">
+                <img src="assets/logoinsta.png" alt="logo instagram" class="footer_links-icone">
+            </a>
+            <a href="https://www.linkedin.com/in/renata-aline-oliveira-3a1766270/" target="_blank">
+                <img src="assets/logolinkedin.png" alt="Logo linkedin" class="footer_links-icone">
+            </a>
+            <a href="https://api.whatsapp.com/send?phone=5511986100092" target="_blank">
+                <img src="assets/logowhats.png" alt="logo whatsapp" class="footer_links-icone">
+            </a>
+        </div>
 
-        </footer>
+    </footer>
 </body>
 
 </html>

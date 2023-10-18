@@ -1,49 +1,82 @@
 :root {
-    
-    --text-primary: #000000;
-    --text-secundary:#FF8C00;
-    --bg-primary:#F5F5DC ;
-    --color-border:#ff8c00ef;
-    --color-hover:#FF8C00;
-    --font-principal: 'Roboto',sans-serif;
+  --text-primary: #000000;
+  --text-secundary: #FF8C00;
+  --bg-primary: #F5F5DC;
+  --color-border: #ff8c00ef;
+  --color-hover: #FF8C00;
+  --font-principal: 'Roboto', sans-serif;
+  --size-footer: 111px;
+  --margin-negative-footer: -111px;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: var(--font-principal);
+  color: var(--text-primary);
+  background-color: var(--bg-primary);
+}
+
+.wrapper {
+  min-height: 100%;
+  padding: 16px 16px var(--size-footer);
+  box-sizing: border-box;
+  text-align: center;
+}
+
+
+
+.avatar {
+  width: 50%;
+  height: auto;
+  border-radius: 50%;
+  border: 2px solid var(--color-border);
+  box-shadow: 5px 10px 5px #C0C0C0;
+
+  @media (min-width:1024px) {
+    width: 30%;
+  }
+}
+
+.profile {
+  margin-bottom: 65px;
+
+  @media (min-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
-  *{
-    box-sizing: border-box;
-    margin:5px;
-    padding: 0;
-   
-  
+  @media (min-width:1024px) {
+    justify-content: space-evenly;
+  }
+}
+
+.profile-title {
+  color: var(--text-secundary);
+  margin-top: 24px;
+
+  @media (min-width: 768px) {
+    font-size: 32px;
   }
 
-  body {
-    width:360px;
-    height: auto;
-    font-family: var(--font-principal);
-    color: var(--text-primary);
-    background-color: var(--bg-primary);
-   
+  @media (min-width:1024px) {
+    font-size: 38px;
   }
-  img {
-    
-    width: 50%;
-    height: auto;
-    border-radius: 50%;
-    border: 2px solid var(--color-border);
-    box-shadow: 5px 10px 5px #C0C0C0;
-   
-  }
-  .apresentacao_titulo{
+}
+
+.profile-subtitle {
+  font-size: 12px;
+
+  @media (min-width: 768px) {
     font-size: 18px;
-    color:var(--text-secundary);
-    margin-top: 20px;
-}
+  }
 
-.apresentacao_conteudo {
-  margin: 20px 0 20px 25px;
+  @media (min-width:1024px) {
+    font-size: 20px;
+  }
 }
- .perfil-titulo {
-  color:var(--text-secundary);
- }
-  
-  
