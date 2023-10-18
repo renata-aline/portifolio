@@ -11,8 +11,13 @@
 
     @media (min-width: 768px) {
         font-size: 24px;
-        padding:18px;
+        padding:27px 0;
     }
+
+
+  @media (min-width:1024px) {
+    padding: 32px;
+  }
 }
 
 .footer_links {
@@ -25,7 +30,9 @@
     @media (min-width: 768px) {
         margin-top: 0;
         justify-content: space-evenly;
+        padding-bottom: 32px;
     }
+
 }
 
 .footer_links-icone {
