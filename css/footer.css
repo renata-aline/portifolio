@@ -11,13 +11,12 @@
 
     @media (min-width: 768px) {
         font-size: 24px;
-        padding:27px 0;
+        padding: 27px 0;
     }
 
-
-  @media (min-width:1024px) {
-    padding: 32px;
-  }
+    @media (min-width:1024px) {
+        padding: 32px;
+    }
 }
 
 .footer_links {
@@ -32,7 +31,6 @@
         justify-content: space-evenly;
         padding-bottom: 32px;
     }
-
 }
 
 .footer_links-icone {
@@ -42,7 +40,6 @@
     border: 2px solid var(--color-border);
     box-shadow: 5px 10px 5px #C0C0C0;
 }
-
 
 .footer_links-icone:hover {
     background-color: var(--color-hover);
